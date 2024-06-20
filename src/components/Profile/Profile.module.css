@@ -1,0 +1,59 @@
+.card {
+  width: 450px;
+  padding-top: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.personalInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+  background-color: #575656;
+}
+
+.name {
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+}
+
+.info {
+  color: darkgray;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.list {
+  display: flex;
+  border-top: 2px solid #575656;
+  background-color: darkgray;
+}
+
+.listItem {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+  padding: 5px;
+  width: 100%;
+}
+
+.listItem:not(:last-child) {
+  border-right: 2px solid #575656;
+}
+
+.figures {
+  font-weight: 600;
+}
